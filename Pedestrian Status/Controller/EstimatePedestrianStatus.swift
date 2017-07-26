@@ -90,7 +90,6 @@ extension StepCountVC {
 			let result = (total / 10).roundTo(roundingPrecision)
 			print("Result: \(result)")
 
-
 			if (result < staticThreshold) {
 				pedestrianStatus = "Static"
 			} else if ((staticThreshold <= result) && (result <= slowWalkingThreshold)) {
