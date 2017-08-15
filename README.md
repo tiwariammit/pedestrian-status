@@ -15,7 +15,7 @@ The algorithm provided in the above research categorises the user's acceleration
 ## Shortcomings
 It’s well known that Pedestrian status is not without it’s flaws. Currently, the iPhone running Pedestrian Status should be hold a little above than the waistline level and parallel to the floor. e.g.:
 
-![](pedestrian-status-required-walking-style)
+![](pedestrian-status-required-walking-style.jpg)
 
 Also sharply moving the hand will result in additionally detected steps as it will be detected as acceleration enough to be classified as a step.
 
