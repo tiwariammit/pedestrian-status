@@ -13,9 +13,9 @@ The algorithm provided in the above research categorises the user's acceleration
 - if fast walking, then count as two steps.
 
 ## Shortcomings
-It’s well known that Pedestrian status is not without it’s flaws. Currently, the iPhone running Pedestrian Status should be hold at the a little above than the waistline level and parallel to the floor. e.g.:
+It’s well known that Pedestrian status is not without it’s flaws. Currently, the iPhone running Pedestrian Status should be hold a little above than the waistline level and parallel to the floor. e.g.:
 
-![](http://www.cansurmeli.com/other/github/pedestrian-status/pedestrian-status-required-walking-style.jpg)
+![](pedestrian-status-required-walking-style)
 
 Also sharply moving the hand will result in additionally detected steps as it will be detected as acceleration enough to be classified as a step.
 
@@ -24,7 +24,7 @@ Pedestrian Status is a proof-of-concept. Therefore such shortcomings as explaine
 ## Usage
 Just download the project and run it on an iPhone.
 
-Since neither the project is not configured nor the algorithm is not tested to run on an iPad, such a scenario's results are currently unknown and left for the curious one's to test. 😏
+Since neither the project is not configured nor the algorithm is not tested running on an iPad, such a scenario's results are currently unknown and left for the curious one's to test. 😏
 
 ## Requirements
 - Xcode 9 beta 1 or higher
